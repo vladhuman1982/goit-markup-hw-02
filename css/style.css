@@ -1,5 +1,179 @@
-:root {
-  --primary-black-color: #212121;
-  --secondary-grey-color: #757575;
-  --accent-color: #2196f3;
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* =================== Шапка =========================== */
+header {
+  background: #ffffff;
+}
+/* ==================== logo header ===================== */
+.header-logo,
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+/* ==================== span header-logo ===================== */
+.header-logo span {
+  color: #000000;
+}
+/* ========================= Навигационные ссылки ===================== */
+.header-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/* ====================== email tel ============================ */
+.header-email,
+.header-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* ==================== hover, focus в шапке ===================== */
+.header-link:hover,
+.header-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+/* ================== Эффективные решения для вашего бизнеса ================ */
+.main,
+footer {
+  background: #2f303a;
+}
+.main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* =========================== Кнопка заказать услугу ============================= */
+.main-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* ===== Внимание к деталям, Пунктуальность, Планирование, Современные технологии ====== */
+.advantages-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+/* ================================ Абзацы Наши преимущества ================================= */
+.advantages-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* =============================== Чем мы занимаемся ======================================== */
+.doing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* ==================================== Наша команда ====================================== */
+.team-titles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* ================================= imgs Наша команда=============================*/
+.team-img {
+  border-radius: 0px;
+}
+/* ============ Игорь Демьяненко, Ольга Репина, Николай Тарасов, Михаил Ермаков=============================*/
+.team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* =================== Product Designer, Frontend Developer, Marketing, UI Designer ==================*/
+.team-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===================== span footer-logo ========================= */
+.footer-logo span {
+  color: #ffffff;
+}
+/* ===================== footer address========================= */
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/* ===================== footer email========================= */
+.footer-email,
+.footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
