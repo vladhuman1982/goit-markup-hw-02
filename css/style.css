@@ -1,12 +1,17 @@
 :root {
-  --font-family: "Roboto", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
   --font-weight: 700;
   --accent-color: #2196f3;
-  --title-color: #212121;
-  --text-color: #757575;
+  --color-black: #212121;
+  --color-gray: #757575;
+  --color-white: #ffffff;
+  --color-blue: #2196f3;
+  --bg-color-dark: #2f303a;
+  --bg-color-blue: #2196f3;
+  --bg-color-white: #ffffff;
 }
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-family-roboto);
   font-style: normal;
 }
 .link {
@@ -17,9 +22,9 @@ body {
 }
 /* =================== Шапка =========================== */
 header {
-  background: #ffffff;
+  background: var(--bg-color-white);
 }
-/* ==================== logo header ===================== */
+/* ==================== logo header and footer ===================== */
 .header-logo,
 .footer-logo {
   font-family: Raleway;
@@ -27,7 +32,7 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-blue);
 }
 /* ==================== span header-logo ===================== */
 .header-logo span {
@@ -39,7 +44,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: var(--color-black);
 }
 /* ====================== email tel ============================ */
 .header-email,
@@ -48,7 +53,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(color-gray);
 }
 /* ==================== hover, focus в шапке ===================== */
 .header-link:hover,
@@ -59,10 +64,8 @@ header {
 .header-tel:focus {
   color: var(--accent-color);
 }
-
-.main,
-footer {
-  background: #2f303a;
+.hero {
+  background: var(--bg-color-dark);
 }
 /* ================== Эффективные решения для вашего бизнеса ================ */
 .main-title {
@@ -72,7 +75,8 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
+  background: var(--bg-color-dark);
 }
 /* =========================== Кнопка заказать услугу ============================= */
 .main-btn {
@@ -81,10 +85,8 @@ footer {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  color: var(--color-white);
+  background-color: var(--bg-color-blue);
 }
 /* ===== Внимание к деталям, Пунктуальность, Планирование, Современные технологии ====== */
 .advantages-title {
@@ -93,7 +95,7 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: var(--color-black);
 }
 /* ================================ Абзацы Наши преимущества ================================= */
 .advantages-text {
@@ -101,7 +103,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--color-gray);
 }
 /* =============================== Чем мы занимаемся ======================================== */
 .doing {
@@ -110,7 +112,7 @@ footer {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--color-black);
 }
 /* ==================================== Наша команда ====================================== */
 .team-titles {
@@ -119,11 +121,7 @@ footer {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-/* ================================= imgs Наша команда=============================*/
-.team-img {
-  border-radius: 0px;
+  color: var(--color-black);
 }
 /* ============ Игорь Демьяненко, Ольга Репина, Николай Тарасов, Михаил Ермаков=============================*/
 .team-title {
@@ -132,7 +130,7 @@ footer {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--color-black);
 }
 /* =================== Product Designer, Frontend Developer, Marketing, UI Designer ==================*/
 .team-text {
@@ -141,21 +139,25 @@ footer {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--color-gray);
 }
 /* ===================== span footer-logo ========================= */
 .footer-logo span {
-  color: #ffffff;
+  color: var(--color-white);
 }
-/* ===================== footer address========================= */
+/* ===================== footer bg ========================= */
+footer {
+  background-color: var(--bg-color-dark);
+}
+/* ===================== footer address ========================= */
 .address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-white);
 }
-/* ===================== footer email========================= */
+/* ===================== footer email ========================= */
 .footer-email,
 .footer-tel {
   font-weight: 400;
