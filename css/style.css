@@ -154,6 +154,9 @@ footer {
   background-color: var(--bg-color-dark);
 }
 /* ===================== footer address ========================= */
+address {
+  font-style: normal;
+}
 .address {
   font-weight: 400;
   font-size: 14px;
