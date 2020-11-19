@@ -67,6 +67,10 @@ header {
 .header-tel:focus {
   color: var(--accent-color);
 }
+/* ============================= current page ====================== */
+.page {
+  color: var(--color-blue);
+}
 /* ============================ Фильтры =========================== */
 .button {
   color: var(--color-black);

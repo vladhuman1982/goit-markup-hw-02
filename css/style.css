@@ -67,6 +67,10 @@ header {
 .hero {
   background: var(--bg-color-dark);
 }
+/* ============================= current page ====================== */
+.page {
+  color: var(--color-blue);
+}
 /* ================== Эффективные решения для вашего бизнеса ================ */
 .hero-title {
   font-weight: 900;
