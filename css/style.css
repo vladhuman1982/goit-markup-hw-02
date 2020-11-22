@@ -1,5 +1,4 @@
 :root {
-  --font-family-roboto: "Roboto", sans-serif;
   --font-weight: 700;
   --accent-color: #2196f3;
   --color-black: #212121;
@@ -11,14 +10,18 @@
   --bg-color-white: #ffffff;
 }
 body {
-  font-family: var(--font-family-roboto);
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  letter-spacing: 0.02em;
+}
+header .link {
+  letter-spacing: 0.02em;
 }
 /* =================== Шапка =========================== */
 header {
@@ -31,19 +34,18 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--color-blue);
 }
 /* ==================== span header-logo ===================== */
 .header-logo span {
   color: #000000;
 }
+
 /* ========================= Навигационные ссылки ===================== */
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--color-black);
 }
 /* ====================== email tel ============================ */
@@ -52,7 +54,6 @@ header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--color-gray);
 }
 /* ==================== hover, focus в шапке ===================== */
@@ -97,7 +98,6 @@ header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-black);
 }
@@ -106,7 +106,6 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--color-gray);
 }
 /* =============================== Чем мы занимаемся ======================================== */
@@ -115,7 +114,6 @@ header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-black);
 }
 /* ==================================== Наша команда ====================================== */
@@ -124,7 +122,6 @@ header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-black);
 }
 /* ============ Игорь Демьяненко, Ольга Репина, Николай Тарасов, Михаил Ермаков=============================*/
@@ -133,7 +130,6 @@ header {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-black);
 }
 /* =================== Product Designer, Frontend Developer, Marketing, UI Designer ==================*/
@@ -142,7 +138,6 @@ header {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-gray);
 }
 /* ===================== span footer-logo ========================= */
@@ -156,20 +151,15 @@ footer {
 /* ===================== footer address ========================= */
 address {
   font-style: normal;
-}
-.address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+}
+.address {
   color: var(--color-white);
 }
 /* ===================== footer email ========================= */
 .footer-email,
 .footer-tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
